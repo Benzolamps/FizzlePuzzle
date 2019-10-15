@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5ACA469F-BAA4-44B7-AAF5-AA2EB42E1C2C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FizzlePuzzle</RootNamespace>
+    <AssemblyName>FizzlePuzzle</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IronPython">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.Modules">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\IronPython.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.SQLite">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\IronPython.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamic">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\NAudio.1.9.0\lib\net35\NAudio.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NVorbis">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\NVorbis.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PostProcessing">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.PostProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:\FizzlePuzzle\FizzlePuzzle_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\BaseCharacterAction.cs" />
+    <Compile Include="Characters\CameraRewindController.cs" />
+    <Compile Include="Characters\CameraRewindStatus.cs" />
+    <Compile Include="Characters\CharacterEffect.cs" />
+    <Compile Include="Characters\FirstPersonCharacterAction.cs" />
+    <Compile Include="Characters\FirstPersonController.cs" />
+    <Compile Include="Characters\FirstPersonRewindController.cs" />
+    <Compile Include="Characters\FirstPersonRewindStatus.cs" />
+    <Compile Include="Characters\FizzleCharacterController.cs" />
+    <Compile Include="Characters\ForkCharacterAction.cs" />
+    <Compile Include="Characters\ForkCharacterController.cs" />
+    <Compile Include="Characters\ForkEffect.cs" />
+    <Compile Include="Characters\MouseLook.cs" />
+    <Compile Include="Config\FizzleSetting.cs" />
+    <Compile Include="Core\CoroutineReceiver.cs" />
+    <Compile Include="Core\FizzleBehaviour.cs" />
+    <Compile Include="Core\FizzleEvent.cs" />
+    <Compile Include="Effect\Outline.cs" />
+    <Compile Include="Effect\OutlineEffect.cs" />
+    <Compile Include="Extension\CollectionExtension.cs" />
+    <Compile Include="Extension\ColorExtension.cs" />
+    <Compile Include="Extension\ComponentExtension.cs" />
+    <Compile Include="Extension\FizzleColor.cs" />
+    <Compile Include="Extension\FizzleException.cs" />
+    <Compile Include="Extension\FizzleLayerMask.cs" />
+    <Compile Include="Extension\ObjectExtension.cs" />
+    <Compile Include="Extension\StringExtension.cs" />
+    <Compile Include="fizzle_puzzle\CommonUtility.cs" />
+    <Compile Include="fizzle_puzzle\FirstFizzleCharacter.cs" />
+    <Compile Include="fizzle_puzzle\FizzleBarrier.cs" />
+    <Compile Include="fizzle_puzzle\FizzleBox.cs" />
+    <Compile Include="fizzle_puzzle\FizzleButton.cs" />
+    <Compile Include="fizzle_puzzle\FizzleCharacter.cs" />
+    <Compile Include="fizzle_puzzle\FizzleElevator.cs" />
+    <Compile Include="fizzle_puzzle\FizzleLogicCurtain.cs" />
+    <Compile Include="fizzle_puzzle\FizzleObject.cs" />
+    <Compile Include="fizzle_puzzle\FizzleResponse.cs" />
+    <Compile Include="fizzle_puzzle\FizzleScript.cs" />
+    <Compile Include="fizzle_puzzle\FizzleSwitch.cs" />
+    <Compile Include="fizzle_puzzle\FizzleTrigger.cs" />
+    <Compile Include="fizzle_puzzle\ForkFizzleCharacter.cs" />
+    <Compile Include="fizzle_puzzle\PressurePlate.cs" />
+    <Compile Include="fizzle_puzzle\WorldInfo.cs" />
+    <Compile Include="Item\FizzleBarrier.cs" />
+    <Compile Include="Item\FizzleBox.cs" />
+    <Compile Include="Item\FizzleBoxRewindController.cs" />
+    <Compile Include="Item\FizzleBoxRewindStatus.cs" />
+    <Compile Include="Item\FizzleButton.cs" />
+    <Compile Include="Item\FIzzleButtonRewindController.cs" />
+    <Compile Include="Item\FizzleButtonRewindStatus.cs" />
+    <Compile Include="Item\FizzleCube.cs" />
+    <Compile Include="Item\FizzleCurtain.cs" />
+    <Compile Include="Item\FizzleElevator.cs" />
+    <Compile Include="Item\FizzleElevatorRewindController.cs" />
+    <Compile Include="Item\FizzleElevatorRewindStatus.cs" />
+    <Compile Include="Item\FizzleLogicCurtain.cs" />
+    <Compile Include="Item\FizzleLogicCurtainRewindController.cs" />
+    <Compile Include="Item\FizzleLogicCurtainRewindStatus.cs" />
+    <Compile Include="Item\FizzlePythonScript.cs" />
+    <Compile Include="Item\FizzleTrigger.cs" />
+    <Compile Include="Item\IAlignable.cs" />
+    <Compile Include="Item\InteractiveItem.cs" />
+    <Compile Include="Item\ISwitch.cs" />
+    <Compile Include="Item\PressurePlate.cs" />
+    <Compile Include="Item\SwitchResponse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scene\CubeTexture.cs" />
+    <Compile Include="Scene\DatabaseCopyProcess.cs" />
+    <Compile Include="Scene\FizzleDefination.cs" />
+    <Compile Include="Scene\FizzleItem.cs" />
+    <Compile Include="Scene\FizzleItemPair.cs" />
+    <Compile Include="Scene\FizzleLevelEnd.cs" />
+    <Compile Include="Scene\FizzleOperation.cs" />
+    <Compile Include="Scene\FizzleScene.cs" />
+    <Compile Include="Scene\FizzleSceneSetting.cs" />
+    <Compile Include="Scene\ForkExchange.cs" />
+    <Compile Include="Scene\ItemMapping.cs" />
+    <Compile Include="Scene\ItemWrapper.cs" />
+    <Compile Include="Scene\LightSetting.cs" />
+    <Compile Include="Scene\MapGenerate.cs" />
+    <Compile Include="Scene\PythonGenerate.cs" />
+    <Compile Include="Scene\SceneInfo.cs" />
+    <Compile Include="TimeEffect\ForkController.cs" />
+    <Compile Include="TimeEffect\IFork.cs" />
+    <Compile Include="TimeEffect\IRewind.cs" />
+    <Compile Include="TimeEffect\IRewindStatus.cs" />
+    <Compile Include="TimeEffect\RewindController.cs" />
+    <Compile Include="TimeEffect\TimeController.cs" />
+    <Compile Include="UI\BasicCube.cs" />
+    <Compile Include="UI\FizzleConsole.cs" />
+    <Compile Include="UI\FizzleFade.cs" />
+    <Compile Include="UI\FizzleFigure.cs" />
+    <Compile Include="UI\FizzleSubtitle.cs" />
+    <Compile Include="UI\FizzleView.cs" />
+    <Compile Include="UI\SubtitlePair.cs" />
+    <Compile Include="UI\TitleProcess.cs" />
+    <Compile Include="Utility\BooleanExpression.cs" />
+    <Compile Include="Utility\CommonTools.cs" />
+    <Compile Include="Utility\FizzleDebug.cs" />
+    <Compile Include="Utility\FIzzleJson.cs" />
+    <Compile Include="Utility\FizzlePython.cs" />
+    <Compile Include="Utility\FizzleStack.cs" />
+    <Compile Include="Utility\FizzleUnicode.cs" />
+    <Compile Include="Utility\WAV.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
