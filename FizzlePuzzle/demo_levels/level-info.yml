@@ -1,0 +1,10 @@
+﻿level-id: demo
+level-mapping:
+ - level-config: config1.yml
+   level-layout: layout1.xls
+ - level-config: config2.yml
+   level-layout: layout2.xls
+ - level-config: config3.yml
+   level-layout: layout3.xls
+ - level-config: config4.yml
+   level-layout: layout4.xls

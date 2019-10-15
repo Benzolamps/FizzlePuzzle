@@ -1,0 +1,97 @@
+﻿is-achievement-stored: >
+  SELECT
+    1
+  FROM
+    fizzle_achv AS a
+  WHERE
+    a.level_id = ?1
+    AND
+    a.achv_name = ?2
+
+store-achievement-update: >
+  UPDATE
+    fizzle_achv
+  SET
+    achv_desc = ?3
+  WHERE
+    level_id = ?1
+    AND
+    achv_name = ?2
+
+store-achievement-insert: >
+  INSERT INTO
+    fizzle_achv (level_id, achv_name, achv_desc)
+  VALUES
+    (?1, ?2, ?3)
+
+is-key-set: >
+  SELECT
+    1
+  FROM
+    fizzle_key AS k
+  WHERE
+    k.level_id = ?1
+    AND
+    k.key_name = ?2
+
+store-key-update: >
+  UPDATE
+    fizzle_key
+  SET
+    key_value = ?3
+  WHERE
+    level_id = ?1
+    AND
+    key_name = ?2
+
+store-key-insert: >
+  INSERT INTO
+    fizzle_key (level_id, key_name, key_value)
+  VALUES
+    (?1, ?2, ?3)
+
+is-level-set: >
+  SELECT
+    1
+  FROM
+    fizzle_level AS l
+  WHERE
+    l.level_id = ?1
+    AND
+    l.level_index = ?2
+
+get-best-time: >
+  SELECT
+    l.level_best_time
+  FROM
+    fizzle_level AS l
+  WHERE
+    l.level_id = ?1
+    AND
+    l.level_index = ?2
+
+store-level-update: >
+  UPDATE
+    fizzle_level
+  SET
+    level_name = ?3,
+    level_dest_time = ?4,
+    level_best_time = ?5
+  WHERE
+    level_id = ?1
+    AND
+    level_index = ?2
+
+store-level-insert: >
+  INSERT INTO
+    fizzle_level (level_id, level_index, level_name, level_dest_time, level_best_time)
+  VALUES
+    (?1, ?2, ?3, ?4, ?5)
+
+get-max-level-index: >
+  SELECT
+    IFNULL(MAX(l.level_index), -1) AS max_level_index
+  FROM
+    fizzle_level AS l
+  WHERE
+    l.level_id = ?1

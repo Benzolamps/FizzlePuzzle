@@ -1,0 +1,12 @@
+﻿﻿level-name: 鹊桥相会
+level-dest-time: 12.0
+player-spawn-target: spawn
+level-border-height: 2.5
+wall-style: Wall01
+floor-style: Floor04
+base-height: 2.5
+fork-activator: true
+level-end-target: end
+audio:
+ - 小柯 - 你说我容易吗.mp3
+light: 5

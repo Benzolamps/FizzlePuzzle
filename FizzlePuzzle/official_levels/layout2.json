@@ -1,0 +1,642 @@
+﻿[
+  {
+    "class": "Floor02",
+    "name": "base",
+    "position": [
+      11.5,
+      -0.5,
+      4.0
+    ],
+    "size": [
+      23.0,
+      0.5,
+      8.0
+    ],
+    "repeat-target": 3
+  },
+  {
+    "class": "Wall02",
+    "name": "west",
+    "position": [
+      0.25,
+      0.0,
+      4.0
+    ],
+    "size": [
+      0.5,
+      9.0,
+      8.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "north",
+    "position": [
+      11.5,
+      0.0,
+      0.25
+    ],
+    "size": [
+      23.0,
+      9.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "east",
+    "position": [
+      22.75,
+      0.0,
+      4.0
+    ],
+    "size": [
+      0.5,
+      9.0,
+      8.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "south",
+    "position": [
+      11.5,
+      0.0,
+      7.75
+    ],
+    "size": [
+      23.0,
+      9.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      17.75,
+      0.0,
+      1.5
+    ],
+    "size": [
+      0.5,
+      9.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      2.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      17.75,
+      0.0,
+      6.5
+    ],
+    "size": [
+      0.5,
+      9.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      5.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "FizzleTrigger",
+    "name": "trigger1",
+    "position": [
+      4.0,
+      0.0,
+      1.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      6.5,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      16.5,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      19.0,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      21.5,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "FizzleBox",
+    "name": "box1",
+    "position": [
+      1.5,
+      0.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "FizzleTrigger",
+    "name": "trigger2",
+    "position": [
+      4.0,
+      0.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "FizzleScript",
+    "name": "rewind script",
+    "position": [
+      6.5,
+      4.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "path": "?py:trigger1 = FizzleTrigger(\"trigger1\")\ntrigger2 = FizzleTrigger(\"trigger2\")\ntrigger3 = FizzleTrigger(\"trigger3\")\n\ndef rewind_operation():\n  subtitle(get_subtitle(\"rewind\"), \"#FFF000\", 4.0)\n  yield Delay(5.0)\n  subtitle(get_subtitle(\"rewind-change\"), \"#FFF000\", 10.0)\n  yield Delay(11.0)\n  yield rewind_operation()\n\nrun_on(Any(Event(trigger1.active), Event(trigger2.active), Event(trigger3.active)), rewind_operation)\n"
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      6.5,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "PressurePlate",
+    "name": "pressure1",
+    "position": [
+      11.5,
+      4.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      16.5,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "name": "barrier",
+    "class": "FizzleBarrier",
+    "position": [
+      19.0,
+      4.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "activator": "pressure1"
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      19.0,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      21.5,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "FizzleTrigger",
+    "name": "trigger3",
+    "position": [
+      4.0,
+      0.0,
+      6.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      6.5,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      16.5,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      19.0,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      21.5,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  }
+]

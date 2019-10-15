@@ -1,0 +1,1514 @@
+﻿[
+  {
+    "class": "Floor01",
+    "name": "base",
+    "position": [
+      15.25,
+      -0.5,
+      11.5
+    ],
+    "size": [
+      30.5,
+      0.5,
+      23.0
+    ],
+    "repeat-target": 3
+  },
+  {
+    "class": "Wall02",
+    "name": "west",
+    "position": [
+      0.25,
+      0.0,
+      11.5
+    ],
+    "size": [
+      0.5,
+      9.0,
+      23.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "north",
+    "position": [
+      15.25,
+      0.0,
+      0.25
+    ],
+    "size": [
+      30.5,
+      9.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "east",
+    "position": [
+      30.25,
+      0.0,
+      11.5
+    ],
+    "size": [
+      0.5,
+      9.0,
+      23.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "south",
+    "position": [
+      15.25,
+      0.0,
+      22.75
+    ],
+    "size": [
+      30.5,
+      9.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      30.25,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0.0,
+      22.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      30.25,
+      0.0,
+      22.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      1.5,
+      0,
+      7.75
+    ],
+    "size": [
+      3.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      2.75,
+      0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      6.5,
+      0,
+      7.75
+    ],
+    "size": [
+      3.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      5.25,
+      0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      15.25,
+      0,
+      7.75
+    ],
+    "size": [
+      15.5,
+      9.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      7.75,
+      0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      24.0,
+      0,
+      7.75
+    ],
+    "size": [
+      3.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      25.25,
+      0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      29.0,
+      0,
+      7.75
+    ],
+    "size": [
+      3.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      30.25,
+      0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      27.75,
+      0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      1.5,
+      0,
+      15.25
+    ],
+    "size": [
+      3.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      2.75,
+      0,
+      15.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0,
+      15.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      6.5,
+      0,
+      15.25
+    ],
+    "size": [
+      3.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      5.25,
+      0,
+      15.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      15.25,
+      0,
+      15.25
+    ],
+    "size": [
+      15.5,
+      9.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0,
+      15.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      7.75,
+      0,
+      15.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      24.0,
+      0,
+      15.25
+    ],
+    "size": [
+      3.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      25.25,
+      0,
+      15.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      29.0,
+      0,
+      15.25
+    ],
+    "size": [
+      3.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      30.25,
+      0,
+      15.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      27.75,
+      0,
+      15.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      7.75,
+      0.0,
+      1.5
+    ],
+    "size": [
+      0.5,
+      5.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      7.75,
+      0.0,
+      2.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      7.75,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      7.75,
+      0.0,
+      6.5
+    ],
+    "size": [
+      0.5,
+      5.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      7.75,
+      0.0,
+      5.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      7.75,
+      0.0,
+      11.5
+    ],
+    "size": [
+      0.5,
+      9.0,
+      8.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      7.75,
+      0.0,
+      16.5
+    ],
+    "size": [
+      0.5,
+      7.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      7.75,
+      0.0,
+      17.75
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      7.75,
+      0.0,
+      21.5
+    ],
+    "size": [
+      0.5,
+      7.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      7.75,
+      0.0,
+      22.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      7.75,
+      0.0,
+      20.25
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      15.25,
+      0.0,
+      9.0
+    ],
+    "size": [
+      0.5,
+      9.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      15.25,
+      0.0,
+      10.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      15.25,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      15.25,
+      0.0,
+      14.0
+    ],
+    "size": [
+      0.5,
+      9.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      15.25,
+      0.0,
+      15.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      15.25,
+      0.0,
+      12.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      22.75,
+      0.0,
+      1.5
+    ],
+    "size": [
+      0.5,
+      5.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      2.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      22.75,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.5,
+      5.0,
+      5.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      10.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      5.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      22.75,
+      0.0,
+      14.0
+    ],
+    "size": [
+      0.5,
+      5.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      12.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      22.75,
+      0.0,
+      16.5
+    ],
+    "size": [
+      0.5,
+      7.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      17.75
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      22.75,
+      0.0,
+      21.5
+    ],
+    "size": [
+      0.5,
+      7.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      22.75
+    ],
+    "size": [
+      0.7,
+      9.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      20.25
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "PressurePlate",
+    "name": "pressure2",
+    "position": [
+      4.0,
+      0.0,
+      1.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "FizzleBoxRewind",
+    "name": "box1",
+    "position": [
+      11.5,
+      0.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "align-to": "pressure3"
+  },
+  {
+    "class": "PressurePlate",
+    "name": "pressure3",
+    "position": [
+      16.5,
+      0.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "FizzleBarrier",
+    "name": "door3",
+    "position": [
+      24.0,
+      0.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "activator": "pressure3"
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      9.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      9.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      9.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "FizzleBoxRewind",
+    "name": "box2",
+    "position": [
+      6.5,
+      0.0,
+      11.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      11.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      11.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      11.5
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "FizzleBarrier",
+    "name": "door1",
+    "position": [
+      24.0,
+      0.0,
+      11.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "activator": "logic1"
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      14.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      14.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      14.0
+    ],
+    "size": [
+      2.5,
+      4.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "FizzleBarrier",
+    "name": "door2",
+    "position": [
+      4.0,
+      0.0,
+      16.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "activator": "pressure2",
+    "curtain-align": "back"
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      16.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      16.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      16.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      16.5,
+      0,
+      16.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      19.0,
+      0,
+      16.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      21.5,
+      0,
+      16.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "FizzleLogicCurtain",
+    "name": "logic1",
+    "position": [
+      26.5,
+      0.0,
+      16.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "curtain-align": "back"
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      19.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      19.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      19.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      16.5,
+      0,
+      19.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      19.0,
+      0,
+      19.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      21.5,
+      0,
+      19.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      21.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      21.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      21.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      16.5,
+      0,
+      21.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      19.0,
+      0,
+      21.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "floor",
+    "position": [
+      21.5,
+      0,
+      21.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "FizzleBox",
+    "name": "box3",
+    "position": [
+      29.0,
+      0.0,
+      21.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+]

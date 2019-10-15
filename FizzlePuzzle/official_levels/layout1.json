@@ -1,0 +1,405 @@
+﻿[
+  {
+    "class": "Floor02",
+    "name": "base",
+    "position": [
+      11.5,
+      -0.5,
+      4.0
+    ],
+    "size": [
+      23.0,
+      0.5,
+      8.0
+    ],
+    "repeat-target": 3
+  },
+  {
+    "class": "Wall02",
+    "name": "west",
+    "position": [
+      0.25,
+      0.0,
+      4.0
+    ],
+    "size": [
+      0.5,
+      5.0,
+      8.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "north",
+    "position": [
+      11.5,
+      0.0,
+      0.25
+    ],
+    "size": [
+      23.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "east",
+    "position": [
+      22.75,
+      0.0,
+      4.0
+    ],
+    "size": [
+      0.5,
+      5.0,
+      8.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "south",
+    "position": [
+      11.5,
+      0.0,
+      7.75
+    ],
+    "size": [
+      23.0,
+      5.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      5.25,
+      0.0,
+      1.5
+    ],
+    "size": [
+      0.5,
+      5.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      5.25,
+      0.0,
+      2.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      5.25,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      5.25,
+      0.0,
+      6.5
+    ],
+    "size": [
+      0.5,
+      5.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      5.25,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      5.25,
+      0.0,
+      5.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      17.75,
+      0.0,
+      1.5
+    ],
+    "size": [
+      0.5,
+      5.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      2.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "wall",
+    "position": [
+      17.75,
+      0.0,
+      6.5
+    ],
+    "size": [
+      0.5,
+      5.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall02",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      5.25
+    ],
+    "size": [
+      0.7,
+      5.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "FizzleButton",
+    "name": "tutorial button",
+    "position": [
+      6.5,
+      0.0,
+      1.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "face-at": "left"
+  },
+  {
+    "class": "FizzleBarrier",
+    "name": "tutorial door",
+    "position": [
+      6.5,
+      0.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "activator": "tutorial button"
+  },
+  {
+    "class": "PressurePlate",
+    "name": "tutorial pressure",
+    "position": [
+      11.5,
+      0.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "name": "tutorial end",
+    "class": "FizzleBarrier",
+    "position": [
+      19.0,
+      0.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "activator": "tutorial pressure"
+  },
+  {
+    "class": "FizzleBox",
+    "name": "tutorial box",
+    "position": [
+      1.5,
+      0.0,
+      6.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "FizzleScript",
+    "name": "move script",
+    "position": [
+      14.0,
+      0.0,
+      6.5
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "path": "?py:def move_operation():\n  subtitle(get_subtitle(\"welcome\"), \"#FFF000\", 4.0)\n  yield Delay(5.0)\n  subtitle(get_subtitle(\"wasd\"), \"#FFF000\", 4.0)\n  yield Delay(4.5)\n  subtitle(get_subtitle(\"move-mouse\"), \"#FFF000\", 4.0)\n  yield Delay(4.5)\n  subtitle(get_subtitle(\"space-jump\"), \"#FFF000\", 4.0)\n  yield Delay(4.5)\n  subtitle(get_subtitle(\"shift-sprint\"), \"#FFF000\", 4.0)\n  yield Delay(4.5)\n  subtitle(get_subtitle(\"e-use\"), \"#FFF000\", 4.0)\n  yield Delay(4.5)\n  subtitle(get_subtitle(\"press-reset\"), \"#FFF000\", 4.0)\n  yield Delay(4.5)\n  subtitle(get_subtitle(\"press-quit\"), \"#FFF000\", 4.0)\n  yield Delay(4.5)\n  subtitle(get_subtitle(\"open-console\"), \"#FFF000\", 4.0)\n  yield Delay(4.5)\n  yield move_operation()\n\nrun_on(Delay(2.0), move_operation)\n"
+  }
+]

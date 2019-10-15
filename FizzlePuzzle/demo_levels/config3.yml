@@ -1,0 +1,16 @@
+﻿﻿level-name: 记得回家
+level-dest-time: 15.0
+player-spawn-target: spawn
+level-border-height: 2.5
+wall-style: Wall02
+floor-style: Floor02
+base-height: 2.5
+fork-activator: ~logic
+level-end-target: end
+audio:
+ - ~/Audio/toki.ogg
+ - ~/Audio/xueyang.ogg
+ - ~/Audio/hgtc.ogg
+ - ~/Audio/nightwalk.ogg
+ - ~/Audio/toki1.ogg
+light: 3

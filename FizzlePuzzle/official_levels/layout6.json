@@ -1,0 +1,586 @@
+﻿[
+  {
+    "class": "Floor01",
+    "name": "base",
+    "position": [
+      11.5,
+      -0.5,
+      4.0
+    ],
+    "size": [
+      23.0,
+      0.5,
+      8.0
+    ],
+    "repeat-target": 3
+  },
+  {
+    "class": "Wall01",
+    "name": "west",
+    "position": [
+      0.25,
+      0.0,
+      4.0
+    ],
+    "size": [
+      0.5,
+      7.0,
+      8.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "north",
+    "position": [
+      11.5,
+      0.0,
+      0.25
+    ],
+    "size": [
+      23.0,
+      7.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "east",
+    "position": [
+      22.75,
+      0.0,
+      4.0
+    ],
+    "size": [
+      0.5,
+      7.0,
+      8.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "south",
+    "position": [
+      11.5,
+      0.0,
+      7.75
+    ],
+    "size": [
+      23.0,
+      7.0,
+      0.5
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "pillar",
+    "position": [
+      0.25,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "pillar",
+    "position": [
+      22.75,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "wall",
+    "position": [
+      17.75,
+      0.0,
+      1.5
+    ],
+    "size": [
+      0.5,
+      7.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      2.75
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      0.25
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "wall",
+    "position": [
+      17.75,
+      0.0,
+      6.5
+    ],
+    "size": [
+      0.5,
+      7.0,
+      3.0
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      7.75
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "pillar",
+    "position": [
+      17.75,
+      0.0,
+      5.25
+    ],
+    "size": [
+      0.7,
+      7.5,
+      0.7
+    ],
+    "repeat-target": 1
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      6.5,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      16.5,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      19.0,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      21.5,
+      0,
+      1.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "FizzleButton",
+    "name": "button1",
+    "position": [
+      1.5,
+      0.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "face-at": "left"
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      6.5,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "PressurePlate",
+    "name": "pressure1",
+    "position": [
+      11.5,
+      2.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      16.5,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "FizzleBarrier",
+    "name": "barrier",
+    "position": [
+      19.0,
+      2.0,
+      4.0
+    ],
+    "size": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "activator": "button1"
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      19.0,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      21.5,
+      0,
+      4.0
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      6.5,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      9.0,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      11.5,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      14.0,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      16.5,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      19.0,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  },
+  {
+    "class": "Wall01",
+    "name": "floor",
+    "position": [
+      21.5,
+      0,
+      6.5
+    ],
+    "size": [
+      2.5,
+      2.0,
+      2.5
+    ],
+    "repeat-target": 2
+  }
+]

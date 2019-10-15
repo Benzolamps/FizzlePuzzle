@@ -1,0 +1,23 @@
+﻿{
+  "level-name": "\u4eba\u683c\u5206\u88c2",
+  "level-dest-time": 20.0,
+  "player-spawn-position": [
+    14.0,
+    0.98,
+    11.5
+  ],
+  "level-end-position": [
+    14.0,
+    0.0,
+    4.0
+  ],
+  "fork-activator": true,
+  "audio": [
+    "~/Audio/toki.ogg",
+    "~/Audio/xueyang.ogg",
+    "~/Audio/hgtc.ogg",
+    "~/Audio/nightwalk.ogg",
+    "~/Audio/toki1.ogg"
+  ],
+  "light": 2
+}

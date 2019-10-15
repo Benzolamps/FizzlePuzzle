@@ -371,6 +371,45 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="demo_levels\config1.yml" />
+    <Content Include="demo_levels\config2.yml" />
+    <Content Include="demo_levels\config3.yml" />
+    <Content Include="demo_levels\config4.yml" />
+    <Content Include="demo_levels\layout1.xls" />
+    <Content Include="demo_levels\layout2.xls" />
+    <Content Include="demo_levels\layout3.xls" />
+    <Content Include="demo_levels\layout4.xls" />
+    <Content Include="demo_levels\level-info.yml" />
+    <Content Include="demo_levels\script1.py" />
+    <Content Include="demo_levels\script2.py" />
+    <Content Include="demo_levels\script3.py" />
+    <Content Include="demo_levels\script4.py" />
+    <Content Include="fizzle\database.py" />
+    <Content Include="fizzle\event.py" />
+    <Content Include="fizzle\items.py" />
+    <Content Include="fizzle\service.py" />
+    <Content Include="fizzle\sql.yml" />
+    <Content Include="fizzle\util.py" />
+    <Content Include="fizzle\__init__.py" />
+    <Content Include="official_levels\common.py" />
+    <Content Include="official_levels\config1.json" />
+    <Content Include="official_levels\config2.json" />
+    <Content Include="official_levels\config3.json" />
+    <Content Include="official_levels\config4.json" />
+    <Content Include="official_levels\config5.json" />
+    <Content Include="official_levels\config6.json" />
+    <Content Include="official_levels\config7.json" />
+    <Content Include="official_levels\custom.py" />
+    <Content Include="official_levels\layout1.json" />
+    <Content Include="official_levels\layout2.json" />
+    <Content Include="official_levels\layout3.json" />
+    <Content Include="official_levels\layout4.json" />
+    <Content Include="official_levels\layout5.json" />
+    <Content Include="official_levels\layout6.json" />
+    <Content Include="official_levels\layout7.json" />
+    <Content Include="py_reference\fizzle.py" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

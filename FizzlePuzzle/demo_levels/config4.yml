@@ -1,0 +1,17 @@
+﻿﻿level-name: 盒子救援计划
+level-dest-time: 32.0
+player-spawn-target: spawn
+player-face-at: left
+level-border-height: 4.5
+wall-style: Wall01
+floor-style: Floor03
+base-height: 4.5
+fork-activator: false
+level-end-target: end
+audio:
+ - ~/Audio/toki.ogg
+ - ~/Audio/xueyang.ogg
+ - ~/Audio/hgtc.ogg
+ - ~/Audio/nightwalk.ogg
+ - ~/Audio/toki1.ogg
+light: 1
