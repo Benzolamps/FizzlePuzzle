@@ -7,6 +7,7 @@ using System.Linq;
 using FizzlePuzzle.Core;
 using FizzlePuzzle.Extension;
 using FizzlePuzzle.Utility;
+using NAudio.Flac;
 using NVorbis;
 using UnityEngine;
 using NAudio.Wave;
@@ -98,6 +99,15 @@ namespace FizzlePuzzle.Scene
                 });
             }
 
+            if (path.ToLower().EndsWith(".flac"))
+            {
+                FlacReader flac = new FlacReader(new MemoryStream(GetFileData(path)));
+                WAV wav = new WAV(AudioMemStream(flac).ToArray());
+                AudioClip audioClip = AudioClip.Create("audio clip", wav.SampleCount, 1, wav.Frequency, false);
+                audioClip.SetData(wav.LeftChannel, 0);
+                return audioClip;
+            }
+            
             if (path.ToLower().EndsWith(".wav"))
             {
                 WAV wav = new WAV(GetFileData(path));
@@ -108,18 +118,12 @@ namespace FizzlePuzzle.Scene
 
             if (path.ToLower().EndsWith(".mp3"))
             {
-                // Load the data into a stream
                 MemoryStream mp3Stream = new MemoryStream(GetFileData(path));
-                // Convert the data in the stream to WAV format
                 Mp3FileReader mp3Audio = new Mp3FileReader(mp3Stream);
-
                 WaveStream waveStream = WaveFormatConversionStream.CreatePcmStream(mp3Audio);
-                // Convert to WAV data
                 WAV wav = new WAV(AudioMemStream(waveStream).ToArray());
-                // Debug.Log(wav);
                 AudioClip audioClip = AudioClip.Create("audio clip", wav.SampleCount, 1, wav.Frequency, false);
                 audioClip.SetData(wav.LeftChannel, 0);
-                // Return the clip
                 return audioClip;
             }
             
