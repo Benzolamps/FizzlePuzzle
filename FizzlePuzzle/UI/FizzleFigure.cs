@@ -47,7 +47,7 @@ namespace FizzlePuzzle.UI
                     GenerateDistance();
                     GenerateFPS();
                 }
-                yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(0.1F);
             }
         }
 
@@ -85,27 +85,25 @@ namespace FizzlePuzzle.UI
         {
             distText.text = FizzleScene.Subtitle["distance-text-sample"].ToString().Replace("%dist%", FizzleScene.FirstPersonCharAction.Distance.ToString("0.00"));
         }
-
-        [SuppressMessage("ReSharper", "InconsistentNaming")]
+        
         private void GenerateFPS()
         {
             fpsText.text = FizzleScene.Subtitle["fps-text-sample"].ToString().Replace("%fps%", (1.0F / Time.deltaTime).ToString("0.00"));
         }
-
-        [SuppressMessage("ReSharper", "InvertIf")]
+        
         private static string SecondsToString(float seconds)
         {
             int hour = 0;
             int minute = 0;
             int second = (int) seconds;
             int millisecond = (int) ((seconds - second) * 100.0F);
-            if (second > 60)
+            if (second >= 60)
             {
                 minute = second / 60;
                 second %= 60;
             }
 
-            if (minute > 60)
+            if (minute >= 60)
             {
                 hour = minute / 60;
                 minute %= 60;

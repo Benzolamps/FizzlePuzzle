@@ -35,25 +35,6 @@ namespace FizzlePuzzle.Scene
             FizzleScene.StartOneCoroutine(PlayClip(parent.gameObject.GetComponent<AudioSource>(), audioClips));
         }
 
-        protected static byte[] GetFileData(string fileUrl)
-        {
-            FileStream fileStream = new FileStream(fileUrl, FileMode.Open, FileAccess.Read);
-            try
-            {
-                byte[] buffer = new byte[fileStream.Length];
-                fileStream.Read(buffer, 0, (int) fileStream.Length);
-                return buffer;
-            }
-            catch (Exception)
-            {
-                return null;
-            }
-            finally
-            {
-                fileStream.Close();
-            }
-        }
-
         private static List<AudioClip> GetAudioClips(IEnumerable<string> audioClips)
         {
             List<AudioClip> audioClipList = new List<AudioClip>();
@@ -87,7 +68,7 @@ namespace FizzlePuzzle.Scene
         {
             if (path.ToLower().EndsWith(".ogg"))
             {
-                VorbisReader vorbis = new VorbisReader(new MemoryStream(GetFileData(path)), true);
+                VorbisReader vorbis = new VorbisReader(new MemoryStream(File.ReadAllBytes(path)), true);
                 return AudioClip.Create("audio clip", (int) (vorbis.SampleRate * vorbis.TotalTime.TotalSeconds), vorbis.Channels, vorbis.SampleRate, false, data =>
                 {
                     float[] buffer = new float[data.Length];
@@ -96,12 +77,12 @@ namespace FizzlePuzzle.Scene
                     {
                         data[index] = buffer[index];
                     }
-                });
+                }, position => vorbis.DecodedTime = new TimeSpan(position));
             }
 
             if (path.ToLower().EndsWith(".flac"))
             {
-                FlacReader flac = new FlacReader(new MemoryStream(GetFileData(path)));
+                FlacReader flac = new FlacReader(new MemoryStream(File.ReadAllBytes(path)));
                 WAV wav = new WAV(AudioMemStream(flac).ToArray());
                 AudioClip audioClip = AudioClip.Create("audio clip", wav.SampleCount, 1, wav.Frequency, false);
                 audioClip.SetData(wav.LeftChannel, 0);
@@ -110,7 +91,7 @@ namespace FizzlePuzzle.Scene
             
             if (path.ToLower().EndsWith(".wav"))
             {
-                WAV wav = new WAV(GetFileData(path));
+                WAV wav = new WAV(File.ReadAllBytes(path));
                 AudioClip audioClip = AudioClip.Create("audio clip", wav.SampleCount, 1, wav.Frequency, false);
                 audioClip.SetData(wav.LeftChannel, 0);
                 return audioClip;
@@ -118,7 +99,7 @@ namespace FizzlePuzzle.Scene
 
             if (path.ToLower().EndsWith(".mp3"))
             {
-                MemoryStream mp3Stream = new MemoryStream(GetFileData(path));
+                MemoryStream mp3Stream = new MemoryStream(File.ReadAllBytes(path));
                 Mp3FileReader mp3Audio = new Mp3FileReader(mp3Stream);
                 WaveStream waveStream = WaveFormatConversionStream.CreatePcmStream(mp3Audio);
                 WAV wav = new WAV(AudioMemStream(waveStream).ToArray());
@@ -155,8 +136,8 @@ namespace FizzlePuzzle.Scene
                 {
                     yield return new WaitForFixedUpdate();
                     audioSource.pitch = !FizzleScene.TimeCtrl.Rewinding ? 1.0F : !FizzleScene.TimeCtrl.TimeOut ? FizzleScene.TimeCtrl.CurrentRewindSpeed : 0.0F;
-                } while (audioSource.isPlaying || FizzleScene.TimeCtrl.TimeOut && FizzleScene.TimeCtrl.Rewinding);
-
+                } 
+                while (audioSource.isPlaying || FizzleScene.TimeCtrl.TimeOut && FizzleScene.TimeCtrl.Rewinding);
                 CommonTools.PlayRandomSound(audioSource, clips);
             }
         }
