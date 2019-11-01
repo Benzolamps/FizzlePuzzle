@@ -37,7 +37,7 @@ namespace FizzlePuzzle.Item
             base.Update();
             if (Physics.BoxCast(button.transform.position, button.transform.localScale * 0.4F, button.transform.up, Quaternion.identity, 0.4F, FizzleLayerMask.GetMask("Player", "Box")))
             {
-                if (activated.HasValue && activated.Value)
+                if (activated == true)
                 {
                     return;
                 }
@@ -47,7 +47,7 @@ namespace FizzlePuzzle.Item
             }
             else
             {
-                if (activated.HasValue && !activated.Value)
+                if (activated == false)
                 {
                     return;
                 }

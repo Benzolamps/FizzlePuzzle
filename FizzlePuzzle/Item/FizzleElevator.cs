@@ -130,7 +130,7 @@ namespace FizzlePuzzle.Item
             {
                 response = new SwitchResponse(Activator);
             }
-            if (m_DefaultRaised ^ (response != null && response.Test()))
+            if (m_DefaultRaised ^ (response?.Test() == true))
             {
                 status = FizzleElevatorStatus.RAISED;
                 transform.localPosition = Vector3.zero;

@@ -5,12 +5,12 @@ namespace FizzlePuzzle.Extension
 {
     internal struct FizzleLayerMask
     {
-        internal static readonly FizzleLayerMask EVERYTHING = new FizzleLayerMask
+        internal static readonly FizzleLayerMask everything = new FizzleLayerMask
         {
             value = uint.MaxValue
         };
 
-        internal static readonly FizzleLayerMask NOTHING = new FizzleLayerMask
+        internal static readonly FizzleLayerMask nothing = new FizzleLayerMask
         {
             value = 0
         };
@@ -19,12 +19,12 @@ namespace FizzlePuzzle.Extension
 
         internal static FizzleLayerMask GetMask(params string[] args)
         {
-            return args.Aggregate(NOTHING, (current, layerName) => (FizzleLayerMask) (current | 1 << LayerMask.NameToLayer(layerName)));
+            return args.Aggregate(nothing, (current, layerName) => (FizzleLayerMask) (current | 1 << LayerMask.NameToLayer(layerName)));
         }
 
         internal static FizzleLayerMask GetNotMask(params string[] args)
         {
-            return EVERYTHING & ~GetMask(args);
+            return everything & ~GetMask(args);
         }
 
         public static implicit operator int(FizzleLayerMask mask)

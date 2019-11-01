@@ -35,7 +35,6 @@ namespace FizzlePuzzle.Utility
                 str.Replace(match.Value, ((char) ascii).ToString());
                 match = match.NextMatch();
             }
-
             return str.ToString();
         }
     }

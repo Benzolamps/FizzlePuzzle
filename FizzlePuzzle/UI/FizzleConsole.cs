@@ -31,7 +31,6 @@ namespace FizzlePuzzle.UI
             bars[0].text = bars[1].text;
             bars[1].text = bars[2].text;
             bars[2].text = msg;
-            // ShowConsole();
         }
 
         internal void ShowConsole()

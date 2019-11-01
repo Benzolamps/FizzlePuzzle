@@ -19,22 +19,30 @@ namespace FizzlePuzzle.Utility
         internal void Push(E element)
         {
             if (capacity <= 0L)
+            {
                 return;
+            }
             if (Count == capacity)
+            {
                 linkedList.RemoveFirst();
+            }
             linkedList.AddLast(element);
         }
 
         internal void Pour(FizzleStack<E> stack2)
         {
             while (Count > 0L)
+            {
                 stack2.Push(Pop());
+            }
         }
 
         internal E Pop()
         {
             if (Count == 0L)
+            {
                 throw new FizzleException("Stack Empty");
+            }
             try
             {
                 return linkedList.Last.Value;

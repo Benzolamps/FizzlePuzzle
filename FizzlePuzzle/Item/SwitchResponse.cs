@@ -1,6 +1,7 @@
 ﻿﻿using System;
 using System.Collections.Generic;
-using FizzlePuzzle.Scene;
+ using System.Linq;
+ using FizzlePuzzle.Scene;
 using FizzlePuzzle.Utility;
 
 namespace FizzlePuzzle.Item
@@ -20,18 +21,15 @@ namespace FizzlePuzzle.Item
 
             this.exp = new BooleanExpression(exp);
             switches = new Dictionary<string, ISwitch>();
-            foreach (string variable in this.exp.GetVariables())
+            foreach (var variable in this.exp.GetVariables().Where(variable => FizzleScene.FindObject<ISwitch>(variable) != null))
             {
-                if (FizzleScene.FindObject<ISwitch>(variable) != null)
-                {
-                    switches[variable] = FizzleScene.FindObject<ISwitch>(variable);
-                }
+                switches[variable] = FizzleScene.FindObject<ISwitch>(variable);
             }
         }
 
         public bool Test()
         {
-            return exp != null && exp.CalcResult(name => switches[name].Activated);
+            return exp?.CalcResult(name => switches[name].Activated) == true;
         }
 
         public void Test(Action active, Action deactive)

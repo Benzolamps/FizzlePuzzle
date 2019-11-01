@@ -22,3 +22,4 @@ namespace FizzlePuzzle.TimeEffect
         void EndRewinding();
     }
 }
+

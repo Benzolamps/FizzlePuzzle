@@ -5,5 +5,3 @@ def _3_seconds():
       subtitle("分身还有三秒就要消失了")
     yield
 run(_3_seconds)
-
-

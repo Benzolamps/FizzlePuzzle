@@ -244,6 +244,7 @@ namespace FizzlePuzzle.Scene
             return GetInstance().item.Find(name)?.GetComponent<ItemWrapper>()?.WrappedItem as T;
         }
 
+        [SuppressMessage("ReSharper", "UnusedParameter.Global")]
         internal static object FindObject(Type type, string name)
         {
             Transform transform = GetInstance().item.Find(name);

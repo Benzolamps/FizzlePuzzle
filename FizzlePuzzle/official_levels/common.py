@@ -74,7 +74,7 @@
           store_achievement(world_info.level_id, achv_name, achv_desc)
 
   def reverse_detect():
-    if world_info.level_id != "offical": 
+    if world_info.level_id != "official": 
       return
     achv_name = "时光正流"
     achv_desc = "尝试时光正流"

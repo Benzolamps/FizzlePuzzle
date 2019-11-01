@@ -24,13 +24,17 @@ namespace FizzlePuzzle.Effect
         protected override void OnEnable()
         {
             foreach (OutlineEffect outlineEffect in Camera.allCameras.AsEnumerable().Select(c => c.GetComponent<OutlineEffect>()).Where(e => e != null))
+            {
                 outlineEffect.AddOutline(this);
+            }
         }
 
         protected override void OnDisable()
         {
             foreach (OutlineEffect outlineEffect in Camera.allCameras.AsEnumerable().Select(c => c.GetComponent<OutlineEffect>()).Where(e => e != null))
+            {
                 outlineEffect.RemoveOutline(this);
+            }
         }
     }
 }

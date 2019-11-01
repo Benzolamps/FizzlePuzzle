@@ -16,3 +16,4 @@ namespace FizzlePuzzle.TimeEffect
         void DisableForking();
     }
 }
+

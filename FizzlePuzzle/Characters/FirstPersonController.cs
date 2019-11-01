@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using Debug = System.Diagnostics.Debug;
 
 namespace FizzlePuzzle.Characters
 {
@@ -31,7 +30,6 @@ namespace FizzlePuzzle.Characters
         {
             base.Start();
             camera = Camera.main;
-            Debug.Assert(camera != null, nameof(camera) + " != null");
             originalCameraPosition = camera.transform.localPosition;
             isJumping = false;
             m_MouseLook.Init(transform, camera.transform);

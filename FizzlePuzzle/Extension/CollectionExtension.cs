@@ -26,9 +26,11 @@ namespace FizzlePuzzle.Extension
 
         public static T[] Subarray<T>(this T[] source, int start, int end)
         {
-            T[] objArray = new T[end - start + 1];
+            var objArray = new T[end - start + 1];
             for (int index = 0; index <= end - start; ++index)
+            {
                 objArray[index] = source[index + start];
+            }
             return objArray;
         }
 

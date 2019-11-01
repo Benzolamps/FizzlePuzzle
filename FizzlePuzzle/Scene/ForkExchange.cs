@@ -1,4 +1,5 @@
-﻿using FizzlePuzzle.Core;
+﻿using System.Diagnostics.CodeAnalysis;
+using FizzlePuzzle.Core;
 using FizzlePuzzle.Item;
 using UnityEngine;
 
@@ -6,7 +7,9 @@ namespace FizzlePuzzle.Scene
 {
     internal class ForkExchange : FizzleBehaviour
     {
-        [SerializeField] internal string Activator;
+        [SerializeField] [SuppressMessage("ReSharper", "InconsistentNaming")]
+        internal string Activator;
+        
         private SwitchResponse response;
 
         protected override void Update()

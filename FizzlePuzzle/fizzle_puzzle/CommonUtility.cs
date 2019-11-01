@@ -79,6 +79,7 @@ namespace fizzle_puzzle
                 __enumerator.Reset();
             }
 
+            [SuppressMessage("ReSharper", "UnusedParameter.Global")]
             public object __call__(params object[] args)
             {
                 return wait();

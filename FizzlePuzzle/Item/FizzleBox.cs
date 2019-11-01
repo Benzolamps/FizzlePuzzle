@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using FizzlePuzzle.Characters;
 using FizzlePuzzle.Core;
 using FizzlePuzzle.Extension;
@@ -87,6 +88,7 @@ namespace FizzlePuzzle.Item
             carried();
         }
 
+        [SuppressMessage("ReSharper", "UnusedParameter.Global")]
         internal void Release(Transform player)
         {
             StopAllCoroutines();

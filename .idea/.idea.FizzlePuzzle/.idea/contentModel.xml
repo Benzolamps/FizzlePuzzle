@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Benzolamps\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Benzolamps\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_FizzlePuzzle.-334805660.00" t="ExcludeRecursive" />
+    <e p="D:\Project\CSharp\FizzlePuzzle" t="IncludeFlat">
+      <e p="FizzlePuzzle" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Characters" t="Include">
+          <e p="BaseCharacterAction.cs" t="Include" />
+          <e p="CameraRewindController.cs" t="Include" />
+          <e p="CameraRewindStatus.cs" t="Include" />
+          <e p="CharacterEffect.cs" t="Include" />
+          <e p="FirstPersonCharacterAction.cs" t="Include" />
+          <e p="FirstPersonController.cs" t="Include" />
+          <e p="FirstPersonRewindController.cs" t="Include" />
+          <e p="FirstPersonRewindStatus.cs" t="Include" />
+          <e p="FizzleCharacterController.cs" t="Include" />
+          <e p="ForkCharacterAction.cs" t="Include" />
+          <e p="ForkCharacterController.cs" t="Include" />
+          <e p="ForkEffect.cs" t="Include" />
+          <e p="MouseLook.cs" t="Include" />
+        </e>
+        <e p="Config" t="Include">
+          <e p="FizzleSetting.cs" t="Include" />
+        </e>
+        <e p="Core" t="Include">
+          <e p="CoroutineReceiver.cs" t="Include" />
+          <e p="FizzleBehaviour.cs" t="Include" />
+          <e p="FizzleEvent.cs" t="Include" />
+        </e>
+        <e p="Effect" t="Include">
+          <e p="Outline.cs" t="Include" />
+          <e p="OutlineEffect.cs" t="Include" />
+        </e>
+        <e p="Extension" t="Include">
+          <e p="CollectionExtension.cs" t="Include" />
+          <e p="ColorExtension.cs" t="Include" />
+          <e p="ComponentExtension.cs" t="Include" />
+          <e p="FizzleColor.cs" t="Include" />
+          <e p="FizzleException.cs" t="Include" />
+          <e p="FizzleLayerMask.cs" t="Include" />
+          <e p="ObjectExtension.cs" t="Include" />
+          <e p="StringExtension.cs" t="Include" />
+        </e>
+        <e p="fizzle_puzzle" t="Include">
+          <e p="CommonUtility.cs" t="Include" />
+          <e p="FirstFizzleCharacter.cs" t="Include" />
+          <e p="FizzleBarrier.cs" t="Include" />
+          <e p="FizzleBox.cs" t="Include" />
+          <e p="FizzleButton.cs" t="Include" />
+          <e p="FizzleCharacter.cs" t="Include" />
+          <e p="FizzleElevator.cs" t="Include" />
+          <e p="FizzleLogicCurtain.cs" t="Include" />
+          <e p="FizzleObject.cs" t="Include" />
+          <e p="FizzleResponse.cs" t="Include" />
+          <e p="FizzleScript.cs" t="Include" />
+          <e p="FizzleSwitch.cs" t="Include" />
+          <e p="FizzleTrigger.cs" t="Include" />
+          <e p="ForkFizzleCharacter.cs" t="Include" />
+          <e p="PressurePlate.cs" t="Include" />
+          <e p="WorldInfo.cs" t="Include" />
+        </e>
+        <e p="FizzlePuzzle.csproj" t="IncludeRecursive" />
+        <e p="Item" t="Include">
+          <e p="FizzleBarrier.cs" t="Include" />
+          <e p="FizzleBox.cs" t="Include" />
+          <e p="FizzleBoxRewindController.cs" t="Include" />
+          <e p="FizzleBoxRewindStatus.cs" t="Include" />
+          <e p="FizzleButton.cs" t="Include" />
+          <e p="FIzzleButtonRewindController.cs" t="Include" />
+          <e p="FizzleButtonRewindStatus.cs" t="Include" />
+          <e p="FizzleCube.cs" t="Include" />
+          <e p="FizzleCurtain.cs" t="Include" />
+          <e p="FizzleElevator.cs" t="Include" />
+          <e p="FizzleElevatorRewindController.cs" t="Include" />
+          <e p="FizzleElevatorRewindStatus.cs" t="Include" />
+          <e p="FizzleLogicCurtain.cs" t="Include" />
+          <e p="FizzleLogicCurtainRewindController.cs" t="Include" />
+          <e p="FizzleLogicCurtainRewindStatus.cs" t="Include" />
+          <e p="FizzlePythonScript.cs" t="Include" />
+          <e p="FizzleTrigger.cs" t="Include" />
+          <e p="IAlignable.cs" t="Include" />
+          <e p="InteractiveItem.cs" t="Include" />
+          <e p="ISwitch.cs" t="Include" />
+          <e p="PressurePlate.cs" t="Include" />
+          <e p="SwitchResponse.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="official_levels" t="Include">
+          <e p="common.py" t="Include" />
+          <e p="config1.json" t="Include" />
+          <e p="config2.json" t="Include" />
+          <e p="config3.json" t="Include" />
+          <e p="config4.json" t="Include" />
+          <e p="config5.json" t="Include" />
+          <e p="config6.json" t="Include" />
+          <e p="config7.json" t="Include" />
+          <e p="custom.py" t="Include" />
+          <e p="layout1.json" t="Include" />
+          <e p="layout2.json" t="Include" />
+          <e p="layout3.json" t="Include" />
+          <e p="layout4.json" t="Include" />
+          <e p="layout5.json" t="Include" />
+          <e p="layout6.json" t="Include" />
+          <e p="layout7.json" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="py_reference" t="Include">
+          <e p="fizzle.py" t="Include" />
+        </e>
+        <e p="Scene" t="Include">
+          <e p="CubeTexture.cs" t="Include" />
+          <e p="DatabaseCopyProcess.cs" t="Include" />
+          <e p="FizzleDefination.cs" t="Include" />
+          <e p="FizzleItem.cs" t="Include" />
+          <e p="FizzleItemPair.cs" t="Include" />
+          <e p="FizzleLevelEnd.cs" t="Include" />
+          <e p="FizzleOperation.cs" t="Include" />
+          <e p="FizzleScene.cs" t="Include" />
+          <e p="FizzleSceneSetting.cs" t="Include" />
+          <e p="ForkExchange.cs" t="Include" />
+          <e p="ItemMapping.cs" t="Include" />
+          <e p="ItemWrapper.cs" t="Include" />
+          <e p="LightSetting.cs" t="Include" />
+          <e p="MapGenerate.cs" t="Include" />
+          <e p="PythonGenerate.cs" t="Include" />
+          <e p="SceneInfo.cs" t="Include" />
+        </e>
+        <e p="TimeEffect" t="Include">
+          <e p="ForkController.cs" t="Include" />
+          <e p="IFork.cs" t="Include" />
+          <e p="IRewind.cs" t="Include" />
+          <e p="IRewindStatus.cs" t="Include" />
+          <e p="RewindController.cs" t="Include" />
+          <e p="TimeController.cs" t="Include" />
+        </e>
+        <e p="UI" t="Include">
+          <e p="BasicCube.cs" t="Include" />
+          <e p="FizzleConsole.cs" t="Include" />
+          <e p="FizzleFade.cs" t="Include" />
+          <e p="FizzleFigure.cs" t="Include" />
+          <e p="FizzleSubtitle.cs" t="Include" />
+          <e p="FizzleView.cs" t="Include" />
+          <e p="SubtitlePair.cs" t="Include" />
+          <e p="TitleProcess.cs" t="Include" />
+        </e>
+        <e p="Utility" t="Include">
+          <e p="BooleanExpression.cs" t="Include" />
+          <e p="CommonTools.cs" t="Include" />
+          <e p="FizzleDebug.cs" t="Include" />
+          <e p="FIzzleJson.cs" t="Include" />
+          <e p="FizzlePython.cs" t="Include" />
+          <e p="FizzleStack.cs" t="Include" />
+          <e p="FizzleUnicode.cs" t="Include" />
+          <e p="WAV.cs" t="Include" />
+        </e>
+      </e>
+      <e p="FizzlePuzzle.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

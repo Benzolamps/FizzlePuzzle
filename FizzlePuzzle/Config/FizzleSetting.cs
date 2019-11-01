@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
 using FizzlePuzzle.Extension;
@@ -93,6 +94,7 @@ namespace FizzlePuzzle.Config
             return keyValuePairList2;
         }
 
+        [SuppressMessage("ReSharper", "LoopCanBePartlyConvertedToQuery")]
         private static IEnumerator<KeyValuePair<string, string>> InternalLoadSceneInfo(FizzleJson levelMapping)
         {
             FizzlePython python = FizzleScene.Python;
